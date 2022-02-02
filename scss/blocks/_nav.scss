@@ -1,0 +1,12 @@
+.nav__list {
+  @include flex-display;
+}
+
+.nav__list-item {
+  margin-right: 31px;
+}
+
+.nav__item-link {
+  @include font($barlow, 12px, 700, 15px);
+  color: $links-color;
+}

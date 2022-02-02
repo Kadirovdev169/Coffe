@@ -1,0 +1,11 @@
+.header {
+  padding: 45px 0;
+}
+
+.header__container {
+  @include flex-display;
+}
+
+.header__item-link {
+  color: $links-color;
+}

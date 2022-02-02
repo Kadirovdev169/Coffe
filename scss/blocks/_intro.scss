@@ -1,0 +1,25 @@
+.intro__container {
+  @include basic-bg-img;
+  padding: 117px 0 116px 0;
+  background-image: url(../../img/intro-bg-img.jpg);
+  border-radius: 10px;
+}
+
+.intro__content {
+  width: 493px;
+  margin-left: 86px;
+}
+
+.intro__title {
+  @include basic-area;
+  @include font($fraunces, 72px, 900, 1);
+  color: $accent-color;
+  margin-bottom: 32px;
+}
+
+.intro__description {
+  @include basic-area;
+  @include font($barlow, 16px, 400, 26px);
+  color: $accent-opacity-color;
+  margin: 0 48px 56px 0;
+}
