@@ -1,0 +1,9 @@
+.about__intro-title {
+  @include font($fraunces, 40px, 900, 48px);
+}
+
+.about__intro-container {
+  @include basic-bg-img;
+  padding: 137px 0;
+  background-image: url(../../img/coffe-about-bg.png);
+}

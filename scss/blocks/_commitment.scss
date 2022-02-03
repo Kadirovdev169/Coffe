@@ -1,0 +1,21 @@
+.commitment__container {
+  @include flex-display;
+  align-items: center;
+  padding: 168px 85px;
+}
+
+.commitment__content {
+  margin-left: 125px;
+}
+
+.commitment__title {
+  @include basic-area;
+  @include font($fraunces, 40px, 900, 48px);
+  margin-bottom: 32px;
+  color: $main-color;
+}
+
+.commitment__description {
+  @include basic-area;
+  @include font($barlow, 16px, 400, 26px)
+}
