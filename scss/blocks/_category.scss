@@ -1,0 +1,21 @@
+.category {
+  padding: 24px 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: $links-color;
+  border-bottom: 1px solid rgba(131, 136, 143, .25);
+}
+
+.category__link {
+  color: $links-color;
+  margin-left: 25px;
+}
+
+.category--active {
+  color: $buttons-bg-color;
+}
+
+.category__link-active {
+  color: $main-color;
+}

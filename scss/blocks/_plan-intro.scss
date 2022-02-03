@@ -1,0 +1,14 @@
+.plan-intro {
+  margin-bottom: 177px;
+}
+
+.plan__intro-container {
+  @include basic-bg-img;
+  padding: 134px 0;
+  background-image: url(../../img/plan-intro-bg-img.png);
+  border-radius: 10px;
+}
+
+.plan__intro-description {
+  margin-bottom: 0;
+}

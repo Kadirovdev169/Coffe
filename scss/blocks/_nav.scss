@@ -4,6 +4,9 @@
 
 .nav__list-item {
   margin-right: 31px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .nav__item-link {

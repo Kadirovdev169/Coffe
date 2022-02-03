@@ -1,3 +1,40 @@
+.quality {
+  padding-top: 88px;
+}
+
 .quality__container {
-  padding: 100px 0 176px 0;
+  padding: 100px 85px 176px;
+  position: relative;
+  background-color: $benefits-bg-color;
+  border-radius: 8px;
+  
+    &::before {
+    @include basic-bg-img;
+    content: "";
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    top: -88px;
+    right: 85px;
+    display: inline-block;
+    background-image: url(../../img/quality-img.jpg);
+    border-radius: 8px;
+  }
+}
+
+.quality__content {
+  width: 540px;
+}
+
+.quality__title {
+  @include basic-area;
+  @include font($fraunces, 40px, 900, 48px);
+  color: $accent-color;
+  margin-bottom: 32px;
+}
+
+.quality__description {
+  @include basic-area;
+  @include font($barlow, 16px, 400, 26px);
+  color: $accent-opacity-color;
 }

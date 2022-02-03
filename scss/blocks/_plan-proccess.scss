@@ -1,0 +1,20 @@
+.plan-proccess__container {
+  padding: 91px 85px 107px;
+  background-color: $benefits-bg-color;
+  border-radius: 10px;
+}
+
+.plan-proccess__item-title {
+  @include basic-area;
+  @include font($fraunces, 32px, 900, 36px);
+  margin-top: 38px;
+  color: $accent-color;
+}
+
+.plan-proccess__item-description {
+  @include basic-area;
+  @include font($barlow, 16px, 400, 26px);
+  margin-top: 42px;
+  color: $accent-opacity-color;
+}
+

@@ -1,0 +1,52 @@
+.headquarter__container {
+  padding: 168px 0;
+}
+
+.headquarter__title {
+  @include font($fraunces, 24px, 900, 32px);
+  @include basic-area;
+  color: $links-color;
+}
+
+.headquarter__list {
+  @include flex-display;
+  @include basic-area;
+  margin-top: 72px;
+}
+
+.haedquarter__list-item {
+  padding-top: 95px;
+}
+
+.headquarter__item-title {
+  @include basic-area;
+  @include font($fraunces, 32px, 900, 36px);
+  margin-bottom: 24px;
+  color: $main-color;
+}
+
+.headquarter__item-datas {
+  @include basic-area;
+}
+
+.headquarter__data {
+  @include basic-area;
+  @include font($barlow, 16px, 400, 26px);
+  @include basic-bg-img;
+  color: $main-color;
+}
+
+.uk__item {
+  background-image: url(../../img/unuted-kingdom.svg);
+  background-repeat: no-repeat;
+}
+
+.canada__item {
+  background-image: url(../../img/canada.svg);
+  background-repeat: no-repeat;
+}
+
+.australia__item {
+  background-image: url(../../img/australia.svg);
+  background-repeat: no-repeat;
+}
