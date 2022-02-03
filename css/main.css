@@ -79,7 +79,7 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 117px 0 116px 0;
-  background-image: url(../../img/intro-bg-img.jpg);
+  background-image: url(../img/intro-bg-img.jpg);
   border-radius: 10px;
 }
 
@@ -250,21 +250,21 @@
 .benefit--bean {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../img/coffee-bean.svg);
+  background-image: url(../img/coffee-bean.svg);
   background-position: top 72px center;
 }
 
 .benefit--gift {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../img/coffe-gift.svg);
+  background-image: url(../img/coffe-gift.svg);
   background-position: top 72px center;
 }
 
 .benefit--car {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../img/coffe-car.svg);
+  background-image: url(../img/coffe-car.svg);
   background-position: top 72px center;
 }
 
@@ -464,7 +464,7 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 137px 0;
-  background-image: url(../../img/coffe-about-bg.png);
+  background-image: url(../img/coffe-about-bg.png);
 }
 
 .about__intro-title {
@@ -536,7 +536,7 @@
   top: -88px;
   right: 85px;
   display: inline-block;
-  background-image: url(../../img/quality-img.jpg);
+  background-image: url(../img/quality-img.jpg);
   border-radius: 8px;
 }
 
@@ -627,17 +627,17 @@
 }
 
 .uk__item {
-  background-image: url(../../img/unuted-kingdom.svg);
+  background-image: url(../img/unuted-kingdom.svg);
   background-repeat: no-repeat;
 }
 
 .canada__item {
-  background-image: url(../../img/canada.svg);
+  background-image: url(../img/canada.svg);
   background-repeat: no-repeat;
 }
 
 .australia__item {
-  background-image: url(../../img/australia.svg);
+  background-image: url(../img/australia.svg);
   background-repeat: no-repeat;
 }
 
@@ -649,7 +649,7 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 134px 0;
-  background-image: url(../../img/plan-intro-bg-img.png);
+  background-image: url(../img/plan-intro-bg-img.png);
   border-radius: 10px;
 }
 
